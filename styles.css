@@ -1,0 +1,133 @@
+/* File: styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* File: styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f28585; /* Latar belakang abu-abu terang */
+    color: #333; /* Teks utama abu-abu gelap */
+}
+
+.navbar {
+    background-color: #004d61; /* Warna biru kehijauan */
+}
+
+.navbar-brand, .nav-link {
+    color: #1f0b0b !important; /* Warna putih untuk teks di navbar */
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Warna kuning untuk hover */
+}
+
+h1, h2 {
+    color: #004d61; /* Warna biru kehijauan untuk heading */
+}
+
+footer {
+    background-color: #004d61; /* Warna biru kehijauan */
+    color: #f4eeee; /* Warna putih untuk teks footer */
+}
+
+footer a {
+    color: #ffd700; /* Warna kuning untuk link di footer */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.container {
+    background-color: #f4dfdf; /* Latar belakang putih untuk kontainer */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #1c0d0d;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+header {
+    background-color: #b0284369;
+    padding: 20px 0;
+    border-bottom: 1px solid #a44a4a;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header img {
+    border: 2px solid #16181a;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #ac4e52;
+    border-top: 1px solid #ba4a4a;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* About Page Styles */
+main h1, main h2 {
+    color: #101215;
+}
+
+/* Gallery Page Styles */
+main .row {
+    gap: 20px;
+}
+
+main img {
+    border-radius: 10px;
+    border: 1px solid #120a0a;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+main img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(16, 15, 15, 0.2);
+}
+
+/* Contact Page Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .btn-primary {
+    background-color: #e99aab;
+    border: none;
+}
+
+form .btn-primary:hover {
+    background-color: #cc8993;
+}
